@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    font-size: large;
+    
+}
+
+.logo{
+    width: 130px;
+}
+
+
+
+.navItems ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 20px;
+ 
+}
+
+
+.navItems ul li{
+    padding: 10px;
+    margin: 10px;
+} 
+
+.navItems ul li:hover{
+    color: red;
+}
+
+.search{
+    padding: 10px;
+}
+
+
+.res-card{
+    width: 200px;
+    /* height: 300px; */
+    border: 1px solid black;
+    padding: 5px 10px;
+    
+}
+
+.restruContainer{
+    padding: 0 10px;
+}
+
+.res-logo{
+    width: 100%;
+}
+
+.restruContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 25px;
+}
+
+.filter-btn{
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.shimmerContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmerCards{
+    width: 200px;
+    height: 400px;
+    background-color: #f0d8d8;
+    margin: 10px;
+}
